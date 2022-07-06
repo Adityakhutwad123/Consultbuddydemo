@@ -32,9 +32,9 @@ public class ConsultantResgistration {
 	 //Enter Last Name
 	 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[2]/div[2]/div[1]/div[3]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("Kumar");
 	 //Enter Mobile No
-	 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[2]/div[2]/div[2]/div[1]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("6510859658");
+	 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[2]/div[2]/div[2]/div[1]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("6510879658");
 	 //Enter Email id
-	 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[2]/div[2]/div[2]/div[2]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("akshay.kumaar1222@gmail.com");
+	 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[2]/div[2]/div[2]/div[2]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("akshay.kumaar199@gmail.com");
 	 //Click On Calender
 	 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[2]/div[2]/div[2]/div[3]/mat-form-field/div/div[1]/div[4]/mat-datepicker-toggle/button/span[1]")).click();
 	    //Click On Year Range
@@ -49,7 +49,10 @@ public class ConsultantResgistration {
 	 Thread.sleep(4000);
 	 d.findElement(By.xpath("/html/body/div[4]/div[2]/div/mat-datepicker-content/div[2]/mat-calendar/div/mat-month-view/table/tbody/tr[3]/td[3]/div[1]")).click();
 	 //Enter Aadhar No
-	 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[2]/div[2]/div[3]/div/mat-form-field/div/div[1]/div[3]/input")).sendKeys("975425058545");
+	 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[2]/div[2]/div[3]/div/mat-form-field/div/div[1]/div[3]/input")).sendKeys("975422058545");
+	 //Enter Pancard no.
+	 Thread.sleep(1000);
+	 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[2]/div[2]/div[3]/div[2]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("ALWPG5807L");
 	 //Enter Address
 	 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[3]/div[2]/div[1]/div[1]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("flat No.-102 Bandra Mumbai 123456");
 	 //Click On State
@@ -65,14 +68,27 @@ public class ConsultantResgistration {
 	 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[3]/div[2]/div[2]/div[3]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("123456");
 	 //Click On Next
 	 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[2]/button[2]/span[1]")).click();
-	 //Click On Type Of Retirment
+	//Select Category
+		Thread.sleep(2000);
+		d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[1]/div[2]/div/div[1]/div/div[1]/mat-form-field/div/div[1]/div[3]/mat-select/div/div[1]")).click();
+		Thread.sleep(1000);
+		d.findElement(By.xpath("/html/body/div[4]/div[2]/div/div/div/mat-option[12]/span")).click();
+		//Select Expertise Area 
+		Thread.sleep(1000);
+		d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[1]/div[2]/div/div[1]/div/div[2]/mat-form-field/div/div[1]/div[3]/mat-select/div/div[1]/span")).click();
+		Thread.sleep(1000);
+		d.findElement(By.xpath("/html/body/div[4]/div[2]/div/div/div/div/mat-checkbox/label/span[1]")).click();
+		//Clcik On Add
+		Thread.sleep(1000);
+		d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[1]/div[2]/div/div[1]/div/div[3]/button[2]/span[1]")).click();
+	 //Click On Type Of retirement
 	 Thread.sleep(2000);
-	 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[1]/div/div[1]/div/div[1]/mat-form-field/div/div[1]/div[3]/mat-select")).click();
+	 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[2]/div/div[1]/div/div[1]/mat-form-field/div/div[1]/div[3]/mat-select/div/div[1]/span")).click();
 	 Thread.sleep(5000);
-	 d.findElement(By.xpath("/html/body/div[4]/div[2]/div/div/div/mat-option[2]/span")).click();
-	 //Click On Date Of Joinig
-	 Thread.sleep(2000);
-	 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[1]/div/div[1]/div/div[2]/mat-form-field/div/div[1]/div[4]/mat-datepicker-toggle/button/span[1]")).click();
+	 d.findElement(By.xpath("/html/body/div[4]/div[2]/div/div/div/mat-option[1]/span")).click();
+	 //Click On Date Of joining
+	 Thread.sleep(4000);
+	 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[2]/div/div[1]/div/div[2]/mat-form-field/div/div[1]/div[4]/mat-datepicker-toggle/button/span[1]")).click();
 	 //click on year 
 	 Thread.sleep(1000);
 	 d.findElement(By.xpath("/html/body/div[4]/div[2]/div/mat-datepicker-content/div[2]/mat-calendar/mat-calendar-header/div/div/button[1]/span[1]/span")).click();
@@ -87,7 +103,7 @@ public class ConsultantResgistration {
 	 d.findElement(By.xpath("/html/body/div[4]/div[2]/div/mat-datepicker-content/div[2]/mat-calendar/div/mat-month-view/table/tbody/tr[3]/td[3]/div[1]")).click();
 	 //Select  Date of Retirement
 	 Thread.sleep(2000);
-	 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[1]/div/div[1]/div/div[3]/mat-form-field/div/div[1]/div[4]/mat-datepicker-toggle/button/span[1]")).click();
+	 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[2]/div/div[1]/div/div[3]/mat-form-field/div/div[1]/div[4]/mat-datepicker-toggle/button/span[1]")).click();
 	 //click on  Year
 	 Thread.sleep(1000);
 	 d.findElement(By.xpath("/html/body/div[4]/div[2]/div/mat-datepicker-content/div[2]/mat-calendar/mat-calendar-header/div/div/button[1]/span[1]/span")).click();
@@ -101,37 +117,39 @@ public class ConsultantResgistration {
 	 Thread.sleep(1000);
 	 d.findElement(By.xpath("/html/body/div[4]/div[2]/div/mat-datepicker-content/div[2]/mat-calendar/div/mat-month-view/table/tbody/tr[3]/td[1]/div[1]")).click();
 	 //Upload Retirement Document
-	 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[1]/div/div[2]/div/div/div[2]/div/div/button[1]/img")).click();
+	 Thread.sleep(2000);
+	 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[2]/div/div[2]/div/div/div[2]/div/div/button[1]")).click();
 	 //Select Authority To Retired
 	 Thread.sleep(10000);
-	 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[1]/div/div[1]/div/div[4]/mat-form-field/div/div[1]/div[3]/mat-select/div/div[1]")).click();
+	 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[2]/div/div[1]/div/div[4]/mat-form-field/div/div[1]/div[3]/mat-select")).click();
 	 Thread.sleep(1000);
 	 d.findElement(By.xpath("/html/body/div[4]/div[2]/div/div/div/mat-option[1]/span")).click();
 	 //Select ministry /PSU
 	 Thread.sleep(1000);
-	 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[1]/div/div[1]/div/div[5]/mat-form-field/div/div[1]/div[3]/mat-select/div/div[1]/span")).click();
+	 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[2]/div/div[1]/div/div[5]/mat-form-field/div/div[1]/div[3]/mat-select")).click();
 	 Thread.sleep(1000);
 	 d.findElement(By.xpath("/html/body/div[4]/div[2]/div/div/div/mat-option[3]/span")).click();
 	 //Designation At The Time Of Retirement
-	 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[1]/div/div[1]/div/div[6]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("President Of BCCI");
-	 //Scroll Window Down
+	 Thread.sleep(2000);
+	 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[2]/div/div[1]/div/div[6]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("President Of BCCI");
+	 //Scroll Down 
 	 Thread.sleep(2000);
 	 String s;
-	JavascriptExecutor j=(JavascriptExecutor) d;
-	j.executeScript(s= "window.scrollBy(0,200)");
+	 JavascriptExecutor js=(JavascriptExecutor) d;
+	 js.executeScript(s= "window.scrollBy(0,400)");
 	//Select Authority
-	Thread.sleep(1000);
-	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[2]/div[2]/div[1]/div[1]/mat-form-field/div/div[1]/div[3]/mat-select/div/div[1]/span")).click();
+	Thread.sleep(2000);
+	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[3]/div[2]/div[1]/div[1]/mat-form-field/div/div[1]/div[3]/mat-select/div/div[1]/span")).click();
 	Thread.sleep(1000);
 	d.findElement(By.xpath("/html/body/div[4]/div[2]/div/div/div/mat-option[1]/span")).click();
 	//Select Ministri /Psu
 	Thread.sleep(1000);
-	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[2]/div[2]/div[1]/div[2]/mat-form-field/div/div[1]/div[3]/mat-select/div/div[1]/span")).click();
+	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[3]/div[2]/div[1]/div[2]/mat-form-field/div/div[1]/div[3]/mat-select")).click();
 	Thread.sleep(1000);
 	d.findElement(By.xpath("/html/body/div[4]/div[2]/div/div/div/mat-option[3]/span")).click();
 	//Enter Designation
 	Thread.sleep(1000);
-	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[2]/div[2]/div[1]/div[3]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("President of BCCI");
+	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[3]/div[2]/div[1]/div[3]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("President of BCCI");
 	//Select Zone
 	Thread.sleep(1000);
 	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[2]/div[2]/div[1]/div[4]/mat-form-field/div/div[1]/div[3]/mat-select/div/div[1]/span")).click();
@@ -142,42 +160,19 @@ public class ConsultantResgistration {
 	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[2]/div[2]/div[1]/div[5]/mat-form-field/div/div[1]/div[3]/mat-select/div/div[1]/span")).click();
 	Thread.sleep(1000);
 	d.findElement(By.xpath("/html/body/div[4]/div[2]/div/div/div/mat-option/span")).click();
-	//Select  from Date 
+	//Slect From Year 
 	Thread.sleep(2000);
-	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[2]/div[2]/div[1]/div[6]/mat-form-field/div/div[1]/div[4]/mat-datepicker-toggle/button/span[1]")).click();
-	
-	//click on Year
+	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[3]/div[2]/div[1]/div[6]/mat-form-field/div/div[1]/div[3]/mat-select")).click();
+	Thread.sleep(1000);
+	d.findElement(By.xpath("/html/body/div[4]/div[2]/div/div/div/mat-option[1]/span")).click();
+	//Select To date Year 
+	Thread.sleep(1000);
+	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[3]/div[2]/div[1]/div[7]/mat-form-field/div/div[1]/div[3]/mat-select")).click();
 	Thread.sleep(2000);
-	d.findElement(By.xpath("/html/body/div[4]/div[2]/div/mat-datepicker-content/div[2]/mat-calendar/mat-calendar-header/div/div/button[1]/span[1]")).click();
-	//Select Year
-	Thread.sleep(5000);
-	d.findElement(By.xpath("/html/body/div[4]/div[2]/div/mat-datepicker-content/div[2]/mat-calendar/div/mat-multi-year-view/table/tbody/tr[6]/td[3]/div[1]")).click();
-	//Select Month
-	Thread.sleep(1000);
-	d.findElement(By.xpath("/html/body/div[4]/div[2]/div/mat-datepicker-content/div[2]/mat-calendar/div/mat-year-view/table/tbody/tr[3]/td[2]/div[1]")).click();
-	//Selet Date 
-	Thread.sleep(5000);
-	d.findElement(By.xpath("/html/body/div[4]/div[2]/div/mat-datepicker-content/div[2]/mat-calendar/div/mat-month-view/table/tbody/tr[2]/td[3]/div[1]")).click();
-	//select To Date
-	Thread.sleep(7000);
-	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[2]/div[2]/div[1]/div[7]/mat-form-field/div/div[1]/div[4]/mat-datepicker-toggle/button/span[1]")).click();
-	//Select Year
-	Thread.sleep(5000);
-	d.findElement(By.xpath("/html/body/div[4]/div[2]/div/mat-datepicker-content/div[2]/mat-calendar/mat-calendar-header/div/div/button[1]/span[1]/span")).click();
-	//Select Year
-	Thread.sleep(1000);
-	d.findElement(By.xpath("/html/body/div[4]/div[2]/div/mat-datepicker-content/div[2]/mat-calendar/div/mat-multi-year-view/table/tbody/tr[6]/td[4]/div[1]")).click();
-	//Select Month
-	Thread.sleep(1000);
-	d.findElement(By.xpath("/html/body/div[4]/div[2]/div/mat-datepicker-content/div[2]/mat-calendar/div/mat-year-view/table/tbody/tr[2]/td[1]/div[1]")).click();
-	//Select Date
-	Thread.sleep(1000);
-	d.findElement(By.xpath("/html/body/div[4]/div[2]/div/mat-datepicker-content/div[2]/mat-calendar/div/mat-month-view/table/tbody/tr[3]/td[1]/div[1]")).click();
+	d.findElement(By.xpath("/html/body/div[4]/div[2]/div/div/div/mat-option[3]/span")).click();
 	//Click on Add
-	Thread.sleep(1000);
-	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[2]/div[2]/div[1]/div[8]/div/button[2]/span[1]")).click();
-	//Scroll Down
 	Thread.sleep(2000);
+	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[3]/div[2]/div[1]/div[8]/div/button[2]")).click();
 	//Enter Friend Name 
 	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[3]/div[2]/div[1]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("Rohit");
 	//Enter Last name 
@@ -188,29 +183,7 @@ public class ConsultantResgistration {
 	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[3]/div[2]/div[3]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("6574546457");
 	
 	Thread.sleep(2000);
-	//Scroll Down
-	 String s1;
-		JavascriptExecutor j1=(JavascriptExecutor) d;
-		j1.executeScript(s1= "window.scrollBy(0,200)");
-	//Select Category
-	Thread.sleep(1000);
-	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[4]/div[2]/div/div[1]/div/div[1]/mat-form-field/div/div[1]/div[3]/mat-select/div/div[1]/span")).click();
-	Thread.sleep(1000);
-	d.findElement(By.xpath("/html/body/div[4]/div[2]/div/div/div/mat-option[12]/span")).click();
-	//Select Expertise Area 
-	Thread.sleep(1000);
-	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[4]/div[2]/div/div[1]/div/div[2]/mat-form-field/div/div[1]/div[3]/mat-select/div/div[1]/span")).click();
-	Thread.sleep(1000);
-	d.findElement(By.xpath("/html/body/div[4]/div[2]/div/div/div/mat-option[2]/span")).click();
-	//Clcik On Add
-	Thread.sleep(1000);
-	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[4]/div[2]/div/div[1]/div/div[3]/button[2]/span[1]")).click();
-	
-	//Scroll Down
-	Thread.sleep(2000);
-	 String s2;
-		JavascriptExecutor j2=(JavascriptExecutor) d;
-		j2.executeScript(s2= "window.scrollBy(0,100)");
+
 	 //Click On Submit
 		Thread.sleep(10000);
 	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[5]/button[2]/span[1]")).click();
