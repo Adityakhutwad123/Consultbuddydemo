@@ -39,6 +39,14 @@ public class Advance_Search {
 				
 				//}
 				//}
+				
+	}
+	@Test
+	
+	public void name() {
+		
+		
+		System.out.println("my Name");
 	}
 	@Test
 	public void AdvanceSearch() throws InterruptedException {

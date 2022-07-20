@@ -73,9 +73,9 @@ public class excel {
 		
 	  }
 	  //Enter Mobile No
-	  d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[2]/div[2]/div[2]/div[1]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("9771642672");
+	  d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[2]/div[2]/div[2]/div[1]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("9771342672");
 	  //Enter Email id 
-	  d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[2]/div[2]/div[2]/div[2]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("Viratkhohli18@gmail.com");
+	  d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[2]/div[2]/div[2]/div[2]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("Consultant@gmail.com");
 	  //Click On Calender
 		 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[2]/div[2]/div[2]/div[3]/mat-form-field/div/div[1]/div[4]/mat-datepicker-toggle/button/span[1]")).click();
 		    //Click On Year Range
@@ -90,7 +90,7 @@ public class excel {
 		 Thread.sleep(4000);
 		 d.findElement(By.xpath("/html/body/div[4]/div[2]/div/mat-datepicker-content/div[2]/mat-calendar/div/mat-month-view/table/tbody/tr[3]/td[3]/div[1]")).click();
 		 //Enter Aadhar No
-		 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[2]/div[2]/div[3]/div/mat-form-field/div/div[1]/div[3]/input")).sendKeys("972121285416");
+		 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[2]/div[2]/div[3]/div/mat-form-field/div/div[1]/div[3]/input")).sendKeys("970121285416");
 		 //Enter Address
 		 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[3]/div[2]/div[1]/div[1]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("flat No.-102 Bandra Mumbai 123456");
 		 //Click On State
@@ -289,9 +289,9 @@ public class excel {
 				
 			  }
 			  //Enter Mobile No
-			  d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[2]/div[2]/div[2]/div[1]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("9153606624");
+			  d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[2]/div[2]/div[2]/div[1]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("9123606624");
 			  //Enter Email id 
-			  d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[2]/div[2]/div[2]/div[2]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("Rohitsharma12@gmail.com");
+			  d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[2]/div[2]/div[2]/div[2]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("Consultant1@gmail.com");
 			  //Click On Calender
 				 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[2]/div[2]/div[2]/div[3]/mat-form-field/div/div[1]/div[4]/mat-datepicker-toggle/button/span[1]")).click();
 				    //Click On Year Range
@@ -306,7 +306,7 @@ public class excel {
 				 Thread.sleep(4000);
 				 d.findElement(By.xpath("/html/body/div[4]/div[2]/div/mat-datepicker-content/div[2]/mat-calendar/div/mat-month-view/table/tbody/tr[3]/td[3]/div[1]")).click();
 				 //Enter Aadhar No
-				 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[2]/div[2]/div[3]/div/mat-form-field/div/div[1]/div[3]/input")).sendKeys("925415058225");
+				 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[2]/div[2]/div[3]/div/mat-form-field/div/div[1]/div[3]/input")).sendKeys("925421058225");
 				 //Enter Address
 				 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[3]/div[2]/div[1]/div[1]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("flat No.-102 Bandra Mumbai 123456");
 				 //Click On State
@@ -507,9 +507,9 @@ public class excel {
 					
 				  }
 				  //Enter Mobile No
-				  d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[2]/div[2]/div[2]/div[1]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("9752117654");
+				  d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[2]/div[2]/div[2]/div[1]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("9742117654");
 				  //Enter Email id 
-				  d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[2]/div[2]/div[2]/div[2]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("IshanKishan@gmail.com");
+				  d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[2]/div[2]/div[2]/div[2]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("Consultant2@gmail.com");
 				  //Click On Calender
 					 d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[1]/form/div[1]/div[2]/div[2]/div[2]/div[3]/mat-form-field/div/div[1]/div[4]/mat-datepicker-toggle/button/span[1]")).click();
 					    //Click On Year Range

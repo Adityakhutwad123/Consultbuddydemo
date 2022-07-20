@@ -152,12 +152,12 @@ public class ConsultantResgistration {
 	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[3]/div[2]/div[1]/div[3]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("President of BCCI");
 	//Select Zone
 	Thread.sleep(1000);
-	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[2]/div[2]/div[1]/div[4]/mat-form-field/div/div[1]/div[3]/mat-select/div/div[1]/span")).click();
+	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[3]/div[2]/div[1]/div[4]/mat-form-field/div/div[1]/div[3]/mat-select")).click();
 	Thread.sleep(1000);
 	d.findElement(By.xpath("/html/body/div[4]/div[2]/div/div/div/mat-option/span")).click();
 	//Select  District
 	Thread.sleep(1000);
-	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[2]/div[2]/div[1]/div[5]/mat-form-field/div/div[1]/div[3]/mat-select/div/div[1]/span")).click();
+	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[3]/div[2]/div[1]/div[5]/mat-form-field/div/div[1]/div[3]/mat-select")).click();
 	Thread.sleep(1000);
 	d.findElement(By.xpath("/html/body/div[4]/div[2]/div/div/div/mat-option/span")).click();
 	//Slect From Year 
@@ -168,19 +168,19 @@ public class ConsultantResgistration {
 	//Select To date Year 
 	Thread.sleep(1000);
 	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[3]/div[2]/div[1]/div[7]/mat-form-field/div/div[1]/div[3]/mat-select")).click();
-	Thread.sleep(2000);
+	Thread.sleep(3000);
 	d.findElement(By.xpath("/html/body/div[4]/div[2]/div/div/div/mat-option[3]/span")).click();
 	//Click on Add
-	Thread.sleep(2000);
-	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[3]/div[2]/div[1]/div[8]/div/button[2]")).click();
+	Thread.sleep(4000);
+	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[3]/div[2]/div[1]/div[8]/div/button[2]/span[1]")).click();
 	//Enter Friend Name 
-	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[3]/div[2]/div[1]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("Rohit");
+	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[4]/div[2]/div[1]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("Rohit");
 	//Enter Last name 
 	Thread.sleep(1000);
-	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[3]/div[2]/div[2]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("Sharma");
+	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[4]/div[2]/div[2]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("Sharma");
 	//Enter Mobile No
 	Thread.sleep(1000);
-	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[3]/div[2]/div[3]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("6574546457");
+	d.findElement(By.xpath("/html/body/app-root/app-web/div/app-my-account/div/div[2]/div/div/mat-stepper/div[2]/div[2]/form/div[4]/div[2]/div[3]/mat-form-field/div/div[1]/div[3]/input")).sendKeys("6574546457");
 	
 	Thread.sleep(2000);
 
